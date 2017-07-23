@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Dmitry Laptev">
+  
+  <title>Dmitry Laptev :: personal homepage</title>
+  
+  <link rel="shortcut icon" href="img/favicon.png">
+  
+  <link href="css/bootstrap-combined.min.css" rel="stylesheet">
+  
+  <style>
+  blockquote p {
+    font-size: 14px;
+  }
+  </style>
+</head>
+
+<html lang="en">
+<body>
+
+<div class="container" style="max-width: 860px">
+  <div class="row-fluid" id="top">
+    <div class="span5">
+      <h1>Dmitry Laptev</h1>
+      <h6>Personal homepage</h6>
+    </div>
+    <div class="span7">
+      <br />
+      <br />
+      <ul class="nav nav-tabs pull-right" id="tab_menu">
+        <li>
+          <a href="index.html">
+            <i class="icon-user"></i> About me
+          </a>
+        </li>
+        <li class="active">
+          <a href="projects.html">
+            <i class="icon-briefcase"></i> Projects
+          </a>
+        </li>
+        <li>
+          <a href="https://scholar.google.com/citations?user=LgELq-QAAAAJ">
+            <i class="icon-book"></i> Google Scholar
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/dlaptev">
+            <i class="icon-star"></i> GitHub
+          </a>
+        </li>
+<!--        <li>
+          <a href="https://medium.com/@x0100">
+            <i class="icon-pencil"></i> Medium
+          </a>
+        </li> -->
+      </ul>
+    </div>
+  </div>
+
+  <br />
+  <div class="row-fluid">
+    <div class="span4">
+      <ul>
+        <li><a href="#my_phd_thesis">My PhD thesis:</a></li>
+        <ul>
+          <li><a href="#transformation_invariance">Transformation-invariance</a></li>
+          <li><a href="#anisotropic_data_analysis">Anisotropic data analysis</a></li>
+          <li><a href="#biologically_motivated_priors">Biologically-motivated priors</a></li>
+        </ul>
+      </ul>
+    </div>
+    <div class="span4">
+      <ul>
+        <li>Industry projects:</li>
+        <ul>
+          <li><a href="#google_search_quality">Google search quality</a></li>
+          <li><a href="#mining_areas_of_interest">Mining areas of interest</a></li>
+          <li><a href="#time_series_anomaly_detection">Time-series anomaly detection</a></li>
+        </ul>
+      </ul>
+    </div>
+    <div class="span4">
+      <ul>
+        <li><a href="#cryptocurrency_algotrading">Cryptocurrency algotrading</a></li>
+        <li>MSU projects:</li>
+        <ul>
+          <li><a href="#solar_activity_forecast">Solar activity forecast</a></li>
+          <li><a href="#global_priors_for_segmentation">Global priors for segmentation</a></li>
+        </ul>
+        <li><a href="#other_stuff">Other stuff</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <hr />
+  <div class="row-fluid" id="google_search_quality">
+    <div class="span5" style="text-align:center;">
+      <img src="img/projects/google_search_quality.png" style="width:240px;" />
+    </div>
+    <div class="span7">
+      <h4>Google search quality</h4>
+      I am part of Google Core Ranking team, whose goal is to develop algorithmic changes to Google Search. We focus on letting users easily access higher quality and more authoritative content. Cannot tell much more than that :)
+    </div>
+  </div>
+
+  <hr />
+  <div class="row-fluid" id="my_phd_thesis">
+    <div class="span5" style="text-align:center;">
+      <img src="img/projects/my_phd_thesis.jpg" style="width:200px;" />
+    </div>
+    <div class="span7">
+      <h4>My PhD thesis</h4>
+      <p>This is a cumulative work of my four years in ETH Zurich. The common umbrella topic is the development of <i>expert-aware algorithms</i> in computer vision - the algorithms that incorporate strong prior knowledge from field experts into modern algorithmic pipelines. Specific topics covered in the thesis are mentioned in more details below.</p>
+      <ul>
+        <li>"Towards expert-aware computer vision algorithms in medical imaging". <a href="files/laptev_thesis_20161214.pdf">Text</a> and <a href="files/laptev_thesis_presentation.pdf">presentation</a>.</li>
+      </ul>
+    </div>
+  </div>
+
+  <hr />
+  <div class="row-fluid" id="transformation_invariance">
+    <div class="span5" style="text-align:center;">
+      <img src="img/projects/transformation_invariance.png" style="width:320px;" />
+    </div>
+    <div class="span7">
+      <h4>Transformation-invariance</h4>
+      <p>Transformation-invariance is crucial for many computer vision applications. It makes algorithms robust to nuisance variations in the data and makes the learning process more efficient. We developed two novel algorithms to combine the flexibility of general-purpose algorithms (CNNs and Convolutional Decision Jungles) with theoretically guaranteed transformation-invariance.</p>
+      <ul>
+        <li>"TI-pooling: transformation-invariant pooling for feature learning in Convolutional Neural Networks" D. Laptev, N. Savinov, J.M. Buhmann, M. Pollefeys, CVPR 2016. <a href="files/laptev16_cvpr.pdf">Paper</a>, <a href="files/laptev16_cvpr_poster.pdf">poster</a> and <a href="https://github.com/dlaptev/TI-pooling">code</a> for TensorFlow and Torch7.</li>
+        <li>"Transformation-Invariant Convolutional Jungles" D. Laptev, J.M. Buhmann, CVPR 2015. <a href="files/laptev15_cvpr.pdf">Paper</a> and <a href="files/laptev15_cvpr_poster.pdf">poster</a>.</li>
+      </ul>
+    </div>
+  </div>
+
+  <hr />
+  <div class="row-fluid" id="anisotropic_data_analysis">
+    <div class="span5" style="text-align:center;">
+      <img src="img/projects/anisotropic_data_analysis.png" style="width:320px;" />
+    </div>
+    <div class="span7">
+      <h4>Anisotropic data analysis</h4>
+      <p>Anisotropic data set is a collection of sequential images representing a continuous evolution of structures, in which the resolution across one dimension of the stack is much lower than the resolution of the other two dimensions. Two examples are serial section transmission electron microscopy and low frame rate video data.</p>
+      <p>The key to anisotropic data analysis is to employ dependencies between the images/frames of the stack to resolve ambiguities. To find dependent regions we use registration techniques such as optical flow. We developed two novel approaches for data enhancement and neuronal segmentation.</p>
+      <ul>
+        <li>"SuperSlicing Frame Restoration for Anisotropic ssTEM" D. Laptev, A. Vezhnevets, J.M. Buhmann, ISBI 2014. <a href="files/laptev14_isbi.pdf">Paper</a>, <a href="files/laptev14_isbi_poster.pdf">poster</a>. Extended to video in NCW ECML <a href="files/laptev14_ecml.pdf">paper</a> and <a href="files/laptev14_ecml_presentation.pdf">presentation</a>.</li>
+        <li>"Anisotropic ssTEM Image Segmentation Using Dense Correspondence Across Sections" D. Laptev, A. Vezhnevets, S. Dwivedi, J.M. Buhmann, MICCAI 2012. <a href="files/laptev12_miccai.pdf">Paper</a>, <a href="files/laptev12_miccai_poster.pdf">poster</a> and <a href="files/arganda_carreras15_frontiers.pdf">review paper</a>.</li>
+      </ul>
+    </div>
+  </div>
+
+  <hr />
+  <div class="row-fluid" id="biologically_motivated_priors">
+    <div class="span5" style="text-align:center;">
+      <img src="img/projects/biologically_motivated_priors.png" style="width:220px;" />
+    </div>
+    <div class="span7">
+      <h4>Biologically-motivated priors</h4>
+      <p>We introduce a framework to automatically tune hyper-parameters of machine learning algorithms by employing external global statistics on the structures of interest. We focus on medical imaging problems, where these statistics naturally come from previous biological knowledge.</p>
+      <p>As an example, we develop a first whole-brain algorithm for fully automated amyloid plaques detection and analysis in cleared mouse brains. The algorithm allows to significantly reduce human envolvement, providing less subjective and more biologically-plausible results. And hopefully bringing humanity one step closer to developing a cure to Alzheimer's disease.</p>
+      <ul>
+        <li>Two papers in preparation. Feel free to contact me if you are interested to learn more.</li>
+      </ul>
+    </div>
+  </div>
+
+  <hr />
+  <div class="row-fluid" id="cryptocurrency_algotrading">
+    <div class="span5" style="text-align:center;">
+      <img src="img/projects/cryptocurrency_algotrading.png" style="width:300px;" />
+    </div>
+    <div class="span7">
+      <h4>Cryptocurrency algotrading</h4>
+      <p>A for-fun and for-experience project. I played around with various simple trading strategies (arbitrage, trend following, market making), with multiple exchanges' APIs (Kraken, BTC-e, Bittrex and no longer existing Cryptsy) and with python asynchornous programming. In case you are wondering, it was slightly profitable for some time when market volatility was very high and competition was low, and afterwards it was not.</p>
+      <p>I also have a channel in telegram, where I share some thoughts and news about crypto (in Russian): <a href="https://t.me/cryptohodl">https://t.me/cryptohodl</a>.</p>
+    </div>
+  </div>
+
+  <hr />
+  <div class="row-fluid" id="mining_areas_of_interest">
+    <div class="span5" style="text-align:center;">
+      <img src="img/projects/mining_areas_of_interest.png" style="width:320px;" />
+    </div>
+    <div class="span7">
+      <h4>Mining areas of interest</h4>
+      <p>The idea of the project was to develop a universal tuning-insensitive algorithm for mining attractive areas from the geo-tagged photos uploaded to social networks. The goal was to provide not only points, but the whole regions that can interest tourists. The project was developed for Yandex.</p>
+      <ul>
+        <li>"Parameter-Free Discovery and Recommendation of Areas-of-Interest" D. Laptev, A. Tikhonov, P. Serdyukov, G. Gusev, SigSpatial 2014. <a href="files/laptev14_sigspatial.pdf">Paper</a>, <a href="files/laptev14_sigspatial_presentation.pdf">presentation</a>, <a href="http://www.google.com/patents/US20170024397">patent application</a>.</li>
+      </ul>
+    </div>
+  </div>
+
+  <hr />
+  <div class="row-fluid" id="time_series_anomaly_detection">
+    <div class="span5" style="text-align:center;">
+      <img src="img/projects/time_series_anomaly_detection.png" style="width:280px;" />
+    </div>
+    <div class="span7">
+      <h4>Time-series anomaly detection</h4>
+      <p>The goal was to develop a system that would detect, analyse and classify abnomal behavior (outliers, changes of trend) in the Internet markets. Time-series analysis algorithm involved independent analysis of trend, seasonal component, and various noise models. The project was developed for Yandex.</p>
+      <p>As a side effect of this project, I also developed a small module for Variance Gamma (VarGamma) distribution modelling. See <a href="https://github.com/dlaptev/VarGamma">github</a>.</p>
+    </div>
+  </div>
+
+  <hr />
+  <div class="row-fluid" id="solar_activity_forecast">
+    <div class="span5" style="text-align:center;">
+      <img src="img/projects/solar_activity_forecast.png" style="width:240px;" />
+    </div>
+    <div class="span7">
+      <h4>Solar activity forecast</h4>
+      <p>As a part of my diploma thesis I was working on short term solar activity prediction from magnetogram images. The main parts of the pipeline were detecting active regions in the image, segmenting them, and computing features from the segmented areas. The project was done in collaboration with Russian Space Research Institute and Microsoft Research Cambridge.</p>
+      <ul>
+        <li>"Short-term solar ﬂare forecast" V. Chernyshov, D. Laptev, D. Vetrov, Graphicon 2011. <a href="files/chernyshov11_graphicon.pdf">Paper</a>, <a href="files/chernyshov11_msr_poster.pdf">poster</a>.</li>
+        <li>"Searching for informative features in Magnetogram Solar images" D. Laptev, Diploma thesis, Lomonosov Moscow State University 2011. <a href="files/laptev11_diploma.pdf">Text (in Russian)</a>.</li>
+        <li>"Searching for active regions in the image" D. Laptev, Lomonosov 2011. <a href="files/laptev11_lomonosov.pdf">Abstract (in Russian)</a>.</li>
+      </ul>
+    </div>
+  </div>
+
+  <hr />
+  <div class="row-fluid" id="global_priors_for_segmentation">
+    <div class="span5" style="text-align:center;">
+      <img src="img/projects/global_priors_for_segmentation.png" style="width:240px;" />
+    </div>
+    <div class="span7">
+      <h4>Global priors for segmentation</h4>
+      <p>We developed two techniques that allow to solve signal or image segmentation problems with incorporated global constraints, such as the distribution of signal states, or the number of pixels from each segment. Subjects learned: HMM, MRF, EM-algorithm, dual decomposition, variational approximation and combinatorial optimization.</p>
+      <ul>
+        <li>"Signal Segmentation with Label Frequency Constraints using Dual Decomposition Approach for Hidden Markov Models" D. Kropotov, D. Laptev, A. Osokin, D. Vetrov, Intellectualization of Information Processing 2010. <a href="files/kropotov10_iip.pdf">Paper</a>.</li>
+        <li>"Variational Segmentation Algorithms with Label Frequency Constraints" D. Kropotov, D. Laptev, A. Osokin, D. Vetrov, PRIA 2010. <a href="files/kropotov10_pria.pdf">Paper</a>.</li>
+      </ul>
+    </div>
+  </div>
+
+  <hr />
+  <div class="row-fluid" id="other_stuff">
+    <div class="span5" style="text-align:center;">
+      <img src="img/projects/other_stuff.png" style="width:280px;" />
+    </div>
+    <div class="span7">
+      <h4>Other stuff</h4>
+      <ul>
+        <li>I participate in <a href="https://zurich.impacthub.ch/stammtisch/">Startup Stammtisch</a> - a regular consulting event for startups organized by ImpactHub and Google.</li>
+        <li>To learn more about Google cloud platform and telegram bot API, I coded up a small Vzhuh (вжух) meme bot. <a href="https://t.me/vzh_bot">The bot</a> and <a href="https://github.com/dlaptev/vzh_bot">the code</a>.
+        <li>Fun speach recognition and audio processing project for automated clip generation. Coming (hopefully) soon.</li>
+        <li>For some time I was playing with different techniques for Bayesian networks learning (causal inference) over large-scale data.</li>
+        <li>I was teaching Computational Intelligence Lab and Introduction to Machine Learning in ETH Zurich, and supervised multiple master projects.</li>
+        <li>My very first research project was to help biologists to count cells (to develop an automated method for tracking cell division rate).</li>
+        <li>I enjoy casual mobile and web development. I coded multiple toy puzzle games, educational applications and a couple of commercial projects.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row-fluid">
+    <div class="span12" style="text-align:right;">
+      <hr />
+      <a href="#top">top</a>
+      <br />
+      <br />
+    </div>
+  </div>
+</div>
+
+<script>
+  // google analytics
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32580615-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</body>
+</html>
