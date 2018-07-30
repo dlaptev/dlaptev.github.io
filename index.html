@@ -64,10 +64,6 @@
     </div>
     <div class="span7">
       <br />
-<!--      <blockquote>
-        <p>Everyone knows it's impossible. But once comes an ignorant, to whom it is unknown &mdash; and he makes a discovery.</p>
-        <small class="pull-right">One of the fake quotes by Albert Einstein</small>
-      </blockquote> -->
       <blockquote>
         <p>The question of whether a computer can think is no more interesting than the question of whether a submarine can swim.</p>
         <small class="pull-right">Edsger W. Dijkstra</small>
@@ -118,16 +114,14 @@
   </div>
 </div>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-32580615-1"></script>
 <script>
-  // google analytics
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-32580615-1']);
-  _gaq.push(['_trackPageview']);
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-32580615-1');
 </script>
 
 </body>
